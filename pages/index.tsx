@@ -1,6 +1,6 @@
 import Head from 'next/head';
 // import { links } from '../data/links';
-import {gql, useQuery } from '@apollo/Client';
+import {gql, useQuery } from '@apollo/client';
 
 const AllLinksQuery = gql`
   query {
